@@ -28,7 +28,7 @@ validateDestination = () => {
   // const destination = document.getElementById(".destin").value;
   // const origin = document.getElementById(".orig").value;
   // // const defaultDest = document.getElementById("defaultLocation")
-  if (destination.value === origin.value){
+  if (destin.value === orig.value){
   document.getElementById("error3").innerHTML = "your destination should be different to origin";
   }
   // else proceed further
